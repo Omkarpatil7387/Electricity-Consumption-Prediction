@@ -1,0 +1,9 @@
+PROJECT GUIDE - WATTWISE
+
+Problem: Estimate daily household electricity use in kWh.
+Inputs: Temperature_C, Humidity_Percent, Occupants, AC_Hours, Appliance_Hours, Lighting_Hours, Weekend (0 weekday, 1 weekend).
+Target: Daily_Consumption_kWh.
+Models: Linear Regression, Decision Tree Regressor, Random Forest Regressor.
+Metrics: MAE, MSE, RMSE, R-squared.
+Dataset: 600 synthetic practice rows. Do not describe it as real smart-meter data.
+History: Streamlit session-only storage with CSV download; no permanent database.
